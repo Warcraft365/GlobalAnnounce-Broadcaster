@@ -1,0 +1,12 @@
+## Interface: 40300
+## Title: Global Announce |cFF33CCFF[Broadcaster]|r
+## Notes: Automatically sends announcements for server, guild, and raid events.
+## Author: Mysticell
+## Version: 0.3
+## SavedVariables: gaBroadcasterSettings
+## DefaultState: disabled
+## RequiredDeps: GlobalAnnounce
+## X-eMail: mysticell@antonidas.us
+GA_Broadcaster.lua
+events_callbacks.lua
+events_enUS.lua

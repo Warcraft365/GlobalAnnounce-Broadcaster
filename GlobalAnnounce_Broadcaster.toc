@@ -1,8 +1,8 @@
-## Interface: 50400
+## Interface: 70300
 ## Title: Global Announce |cFF33CCFF[Broadcaster]|r
 ## Notes: Automatically sends announcements for server, guild, and raid events.
 ## Author: Mysticell
-## Version: 0.4
+## Version: 0.4.1
 ## SavedVariables: gaBroadcasterSettings
 ## DefaultState: disabled
 ## RequiredDeps: GlobalAnnounce

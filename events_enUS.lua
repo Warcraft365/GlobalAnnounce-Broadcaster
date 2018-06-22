@@ -71,6 +71,7 @@ end
         gaBroadcaster.combatEvents[58474] = { { "SPELL_CAST_SUCCESS" }, { 58474 }, "Small Feast", "%n placed a small feast!", "GAnnoRW" };
         gaBroadcaster.combatEvents[66476] = { { "SPELL_CAST_SUCCESS" }, { 66476 }, "Bountiful Feast", "%n placed a bountiful feast!", "GAnnoRW" };
         gaBroadcaster.combatEvents[87915] = { { "SPELL_CAST_SUCCESS" }, { 87915 }, "Goblin Barbecue Feast", "%n placed a %s!", "GAnnoRW" };
+        gaBroadcaster.combatEvents[126495]= { { "SPELL_CAST_SUCCESS" }, { 126495 }, "Banquet of the Wok", "%n placed a %s!", "GAnnoRW" };
     -- Portals
         gaBroadcaster.combatEvents[10059] = { { "SPELL_CAST_START" }, { 10059 }, "Portal: Stormwind", "%n is creating a portal to Stormwind.", "GAnnoRW" };
         gaBroadcaster.combatEvents[11416] = { { "SPELL_CAST_START" }, { 11416 }, "Portal: Ironforge", "%n is creating a portal to Ironforge.", "GAnnoRW" };
@@ -102,6 +103,7 @@ end
         gaBroadcaster.combatEvents[724]   = { { "SPELL_CAST_SUCCESS" }, { 724 }, "Lightwell", "%n has placed a Lightwell!", "GAnnoSct" };
         --gaBroadcaster.combatEvents[34477] = { { "SPELL_CAST_SUCCESS" }, { 34477 }, "Misdirection", "%n has cast Misdirection on %t.", "GAnnoEF" };
         --gaBroadcaster.combatEvents[57934] = { { "SPELL_CAST_SUCCESS" }, { 57934 }, "Tricks of the Trade", "%n has cast Tricks of the Trade on %t.", "GAnnoEF" };
+        gaBroadcaster.combatEvents[126318]= { { "SPELL_CAST_SUCCESS" }, { 126318 }, "Battle Horn", "%i %n used %s! %i", "GAnnoRW" };
     -- PVP Events
         gaBroadcaster.combatEvents[42292] = { { "SPELL_CAST_SUCCESS" }, { 59752, 42292 }, "PVP Trinket", "%i %n used %s! %i", "GAnnoSct", nil, "inv_jewelry_trinketpvp_02", false };
     -- Raid: Firelands (4.2)
@@ -116,6 +118,8 @@ end
     -- World Event: Battlefield: Barrens (5.3)
         gaBroadcaster.combatEvents[142199]= { { "SPELL_CAST_START" }, { 142199 }, "Venom Bombs", "%n is casting %s!", "GAnnoSct", nil, nil, false };
         gaBroadcaster.combatEvents[142111]= { { "SPELL_CAST_START" }, { 142111 }, "Disrupting Bellow", "%n is casting %s!", "GAnnoSct", nil, nil, false };
+    -- Legion World Quests
+        gaBroadcaster.combatEvents[205421]= { { "SPELL_CAST_START" }, { 205421 }, "Wailing Arrow", "%n is casting %s!", "GAnnoSct", nil, nil, false };
 
 if( not gaBroadcaster.fails ) then
     gaBroadcaster.fails = {};
